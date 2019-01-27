@@ -2,4 +2,4 @@
 
 
 bitdepthofwav() { file $1 | awk '{print $9}'; }
-echo $(bitdepthofwav $1) | tee bitdepth
+echo $(bitdepthofwav $1)
